@@ -18,7 +18,7 @@ describe('fetchBreedDescription', () => {
 
   it('returns null for an invalid breed, via callback', (done) => {
     fetchBreedDescription('Turtle', (err, desc) => {
-      
+
       // Error expected to be defined (not null)
       assert.isNotNull(err);
 
